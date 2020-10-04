@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" href="stylesheet/web.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<style>
+    h1{
+            color: rgb(228, 105, 18);
+            text-align: center;
+            font-size: 50px;
+        }
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.n{
+font-size: 45px;
+text-align: center;
+color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 100px;
+  background-color: #2196F3;
+  padding: 50px;
+  color: aliceblue;
+}
+
+.grid-container > div {
+  background-color: rgba(22, 21, 21, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 35px;
+}
+</style>
+</head>
+<body>
+
+<h1>Skills</h1>
+<a href="index.html" class="button top-left">Back to Home</a>
+<a href="Contact Us.html" class="button top-right">Contact Me</a>
+
+<p class="n">What im good at?</p>
+
+<div class="grid-container">
+  <div class="item1">HTML5-CSS3 < > <br> Developing Website for Small Scale Industry</div>
+  <div class="item2">DBMS SQL<br> Developed <br> mini Projects </div>
+  <div class="item3">JavaScript {}</div>  
+  <div class="item4">C,C++,JAVA & Python <Br> intermediate level</div>
+  <div class="item5">C#<br>Developed small project</div>
+</div>
+
+</body>
+<br>
+        
+<footer class="ft" >
+
+    &copy; 
+    <large>Copyright 2020 All Rights Reserved</large>
+  </footer>
+  
+</html>
